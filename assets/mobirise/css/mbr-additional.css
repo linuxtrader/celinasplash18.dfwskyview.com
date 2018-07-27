@@ -1438,19 +1438,14 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
-.cid-qUx0OJcMNU {
-  padding-top: 60px;
-  padding-bottom: 15px;
-  background-color: #465052;
-}
 .cid-qUtZEJCYZ1 .navbar {
-  background: #465052;
+  background: #767676;
   transition: none;
   min-height: 77px;
   padding: .5rem 0;
 }
 .cid-qUtZEJCYZ1 .navbar-dropdown.bg-color.transparent.opened {
-  background: #465052;
+  background: #767676;
 }
 .cid-qUtZEJCYZ1 a {
   font-style: normal;
@@ -1534,7 +1529,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qUtZEJCYZ1 .dropdown .dropdown-menu {
-  background: #465052;
+  background: #767676;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1605,7 +1600,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #c4bc3b;
+  background-color: #f7ed4a;
 }
 .cid-qUtZEJCYZ1 button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1830,67 +1825,7 @@ body {
 }
 .cid-qUtZEJCYZ1 .nav-link:hover,
 .cid-qUtZEJCYZ1 .dropdown-item:hover {
-  color: #767676 !important;
-}
-.cid-qUuWyjseOY {
-  padding-top: 15px;
-  padding-bottom: 0px;
-  background-color: #465052;
-}
-.cid-qUuWyjseOY .mbr-slider .carousel-control {
-  background: #1b1b1b;
-}
-.cid-qUuWyjseOY .mbr-slider .carousel-control-prev {
-  left: 0;
-  margin-left: 2.5rem;
-}
-.cid-qUuWyjseOY .mbr-slider .carousel-control-next {
-  right: 0;
-  margin-right: 2.5rem;
-}
-.cid-qUuWyjseOY .mbr-slider .modal-body .close {
-  background: #1b1b1b;
-}
-.cid-qUuWyjseOY .mbr-gallery-item > div::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #554346;
-  opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
-}
-.cid-qUuWyjseOY .mbr-gallery-item > div:hover .mbr-gallery-title::before {
-  background: transparent !important;
-}
-.cid-qUuWyjseOY .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
-}
-.cid-qUuWyjseOY .mbr-gallery-title {
-  font-size: .9em;
-  position: absolute;
-  display: block;
-  width: 100%;
-  bottom: 0;
-  padding: 1rem;
-  color: #fff;
-  z-index: 2;
-}
-.cid-qUuWyjseOY .mbr-gallery-title:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  position: absolute;
-  background: #554346 !important;
-  opacity: 0.7;
-  -webkit-transition: 0.2s background ease-in-out;
-  transition: 0.2s background ease-in-out;
+  color: #ffffff !important;
 }
 .cid-qUtN7oRPjJ {
   padding-top: 30px;
@@ -1916,7 +1851,7 @@ body {
   }
 }
 .cid-qU91rZCwL6 {
-  background-image: url("../../../assets/images/mbr-1620x1080.jpg");
+  background-image: url("../../../assets/images/dji-52-2000x1500.jpg");
 }
 .cid-qU91rZCwL6 .mbr-media span {
   font-size: 48px;

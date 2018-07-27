@@ -1,0 +1,13 @@
+#! /bin/bash
+
+DIST=E3HW9SLY90DYZD
+
+# Seperate
+#aws cloudfront create-invalidation --distribution-id ${DIST} --paths "/sb_data/*"
+#aws cloudfront create-invalidation --distribution-id ${DIST} --paths "/cf_data/CelinaSafety_Samples.zip"
+#aws cloudfront create-invalidation --distribution-id ${DIST} --paths "/cf_data/CelinaSafety01*"
+
+# Do Together
+ aws cloudfront create-invalidation --distribution-id ${DIST} --paths /index.html /gallery.html /project.mobirise /publish-hashes.json /screenshot.png
+ aws cloudfront create-invalidation --distribution-id ${DIST} --paths "/assets/*"
+
