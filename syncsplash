@@ -10,6 +10,13 @@ mv .git ../sb_git
 aws s3 sync ~/Documents/aws/clients/celinasplash2018 s3://celinasplash18.dfwskyview.com/ --acl public-read 
 mv ../sb_git .git
 
-aws s3 sync            ~/Movies/clients/celinasplash s3://celinasplash18.dfwskyview.com/ --acl public-read --cache-control max-age=31536000,public
+#stop using cache-control max-age so that CDN can control for zip and large files.
+#Max-age implies public
+#ws s3 sync            ~/Movies/clients/celinasplash s3://celinasplash18.dfwskyview.com/ --acl public-read --cache-control max-age=31536000,public
+aws s3 sync            ~/Movies/clients/celinasplash s3://celinasplash18.dfwskyview.com/ --acl public-read 
+aws s3 sync            ~/Movies/clients/celinasplash s3://celinasplash18.dfwskyview.com/ --acl public-read 
+
+# Stop using public-read as making all web buckets private now.
+aws s3 sync            ~/Movies/clients/celinasplash s3://celinasplash18.dfwskyview.com/ --acl public-read 
 
 echo Maybe do zip -r ../celinasplash01.zip .
