@@ -1,0 +1,27 @@
+
+# Fix JavaScript lib to allow non-youtube videos
+
+grep -q scriptnew.js index.html && echo Nothing to do && exit 0
+
+cp /Users/danrose/Documents/aws/clients/scriptnew.js          assets/theme/js/
+
+echo  STOPPING OLD
+exit 0
+echo >> index.html
+cp index.html index.html.orig
+
+# Replace updated css and js
+sed -e 's=assets/mobirise/css/mbr-additional.css=assets/mobirise/css/mbr-additionalnew.css=' \
+    -e 's=assets/theme/js/script.js=assets/theme/js/scriptnew.js=' index.html > new.html
+
+mv new.html index.html
+
+echo; echo showing: diff index.html.orig index.html
+diff index.html.orig index.html
+
+echo; echo
+ls -l videomobile.html
+
+exit 0
+
+

@@ -1,0 +1,46 @@
+/*
+ Wed Nov  7 09:52:26 CST 2018
+ Style Overrides specific to a page or website
+ Easier than placing above the html all the time.
+ Set for mobile,  then find desktop overrides in jquery javascript....
+*/
+
+
+/*  Overrides for wowslider by class*/
+/*  Move playpause to bottom */
+.mbr-wowslider-container--easy .mbr-wowslider .ws_playpause {
+    bottom: 2.5em;
+    top: unset;
+}
+/* Title on top out of the picture */
+.mbr-wowslider-container--easy .mbr-wowslider .ws-title{
+	padding: 20px !important;
+	top: 0px !important;
+}
+
+
+/*  Affects mobile devices*/
+.modalWindow {
+  background-color: rgba(0, 0, 0, 1.00) !important;
+}
+
+/*  Full screen playback */
+  .modalWindow-video {
+  height: calc(56.24999vw) !important;
+  width: 100vw !important;
+  margin: 0 auto !important;
+}
+
+/*  Lowers the close button out of the menu */
+  a.close {
+  position: absolute !important;
+  right: 4vw !important;
+  top: 12vh !important;
+}
+
+/* Lowers the down-arrow and darkens it */
+  .mbr-arrow {
+  bottom: 10px !important;
+  background-color: rgba(80, 80, 80, 0.8) !important;
+}
+
